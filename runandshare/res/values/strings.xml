@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="facebook_app_id">618685158293124</string>
+    <string name="app_name">runandshare</string>
+    <string name="title_activity_menu">MenuActivity</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="title_activity_user_menu">UserMenuActivity</string>
+    <string name="title_activity_training">TrainingActivity</string>
+    <string name="title_activity_search_training">SearchTrainingActivity</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_create_training">CreateTrainingActivity</string>
+    <string name="title_activity_follow_training">FollowTrainingActivity</string>
+    <string name="title_activity_user_trainings">UserTrainingsActivity</string>
+    <string name="title_activity_change_password">ChangePasswordActivity</string>
+    <string name="splash">RUN AND SHARE</string>
+    <string name="loginButton">Inicia sesión</string>
+    <string name="registerButton">Registrate</string>
+    <string name="userNameTextView">Nombre de usuario</string>
+    <string name="passwordTextView">Contraseña</string>
+    <string name="continueButton">Continuar</string>
+    <string name="cancelButton">Cancelar</string>
+    <string name="userNameRTextView">Nombre de usuario</string>
+    <string name="passwordRTextView">Contraseña</string>
+    <string name="continueRButton">Continuar</string>
+    <string name="cancelRButton">Cancelar</string>
+    <string name="repeatPasswordTextView">Repite la contraseña</string>
+    <string name="trainingButton">Entrenamiento</string>
+    <string name="searchTrainingButton">Buscar Entrenamiento</string>
+    <string name="profileButton">Mi perfil</string>
+    <string name="closeSessionButton">Cerrar sesión</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_buscar">Buscar</string>
+    <string name="action_nuevo">Nuevo</string>
+    <string name="trainingNameTextView">Nombre del entrenamiento</string>
+    <string name="continueTrainingNameButton">Continuar</string>
+    <string name="shareButton">Compartir en Facebook</string>
+    <string name="title_activity_finish_training">FinishTrainingActivity</string>
+    <string name="search">Buscar</string>
+    <string name="top">ENTRENAMIENTOS MAS VISITADOS</string>
+    <string name="userTrainingsButton">Mis entrenamientos</string>
+    <string name="changePasswordButton">Cambiar contraseña</string>
+    <string name="deleteProfileButton">Borrar perfil</string>
+    <string name="repeatChangePasswordTextView">Repite la contraseña</string>
+    <string name="chooseTrainingNameTextView">Introduce el nombre del entrenamiento</string>
+    <string name="userTrainings">Mis entrenamientos</string>
+    <string name="title_activity_view_training">ViewTrainingActivity</string>
+    <string name="title_activity_edit_training">EditTrainingActivity</string>
+    <string name="changeTrainingName">Introduce el nuevo nombre para el entrenamiento</string>
+    <string name="title_activity_speed_chart">SpeedChartActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+
+    <string-array name="menu_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_websearch">Web search</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="title_activity_stats">StatsActivity</string>
+    <string name="title_activity_profile_chart">ProfileChartActivity</string>
+    <string name="title_activity_training_profile_chart">TrainingProfileChartActivity</string>
+    <string name="title_activity_followed_stats">FollowedStatsActivity</string>
+    <string name="title_activity_view_stats">ViewStatsActivity</string>
+
+</resources>

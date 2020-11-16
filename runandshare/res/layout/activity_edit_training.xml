@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF590E"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#305C8C" >
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_menu_white_48dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/menuButton"
+            android:gravity="center"
+            android:text="RUN &amp; SHARE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/run_logo" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/changeTrainingNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/changeTrainingNameTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:textCursorDrawable="@null" />
+
+    <Button
+        android:id="@+id/cancelChangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/changeTrainingNameEditText"
+        android:layout_below="@+id/changeTrainingNameEditText"
+        android:layout_marginTop="51dp"
+        android:background="#305C8C"
+        android:text="@string/cancelButton"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/continueChangeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/cancelChangeButton"
+        android:layout_alignBottom="@+id/cancelChangeButton"
+        android:layout_alignLeft="@+id/changeTrainingNameEditText"
+        android:background="#305C8C"
+        android:text="@string/continueButton"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/changeTrainingNameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="128dp"
+        android:gravity="center"
+        android:text="@string/changeTrainingName"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+</RelativeLayout>

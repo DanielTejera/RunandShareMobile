@@ -1,0 +1,124 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#BF590E"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#305C8C" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:gravity="center"
+            android:text="RUN &amp; SHARE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/run_logo" />
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/searchTrainingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/newTrainingButton"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_training_menu" />
+
+    <ImageButton
+        android:id="@+id/newTrainingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/new_training_menu" />
+
+    <ImageButton
+        android:id="@+id/profileButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newTrainingButton"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="80dp"
+        android:background="@drawable/profile_menu" />
+
+    <ImageButton
+        android:id="@+id/userTrainingsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/searchTrainingButton"
+        android:layout_alignTop="@+id/profileButton"
+        android:background="@drawable/user_trainings" />
+
+    <TextView
+        android:id="@+id/newTrainingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/newTrainingButton"
+        android:layout_alignRight="@+id/newTrainingButton"
+        android:layout_below="@+id/newTrainingButton"
+        android:gravity="center"
+        android:text="Nuevo entrenamiento"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/newTrainingTextView"
+        android:layout_alignBottom="@+id/newTrainingTextView"
+        android:layout_alignLeft="@+id/searchTrainingButton"
+        android:layout_alignRight="@+id/searchTrainingButton"
+        android:gravity="center"
+        android:text="Buscar entrenamiento"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/profileButton"
+        android:layout_alignRight="@+id/profileButton"
+        android:layout_below="@+id/userTrainingsButton"
+        android:gravity="center"
+        android:text="Perfil"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/userTrainingsButton"
+        android:layout_alignRight="@+id/userTrainingsButton"
+        android:layout_below="@+id/userTrainingsButton"
+        android:gravity="center"
+        android:text="Mis entrenamientos"
+        android:textColor="#ffffff"
+        android:textSize="18dp" />
+
+</RelativeLayout>

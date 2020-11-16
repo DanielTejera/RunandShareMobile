@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#BF590E" >
+
+    <TextView
+        android:id="@+id/visits1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visitsTextView"
+        android:layout_below="@+id/visitsTextView"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/visits2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visits1"
+        android:layout_below="@+id/visits1"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/visits3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visits2"
+        android:layout_below="@+id/visits2"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/visits4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visits3"
+        android:layout_below="@+id/visits3"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/training3"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/visits3"
+        android:layout_alignBottom="@+id/visits3"
+        android:layout_alignLeft="@+id/training2"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/visits5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/visits4"
+        android:layout_below="@+id/visits4"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/training2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/visits2"
+        android:layout_alignBottom="@+id/visits2"
+        android:layout_alignLeft="@+id/training1"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/training4"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/visits4"
+        android:layout_alignBottom="@+id/visits4"
+        android:layout_alignLeft="@+id/training3"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/training5"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/visits5"
+        android:layout_alignBottom="@+id/visits5"
+        android:layout_alignLeft="@+id/training4"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/training1"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_alignBaseline="@+id/visits1"
+        android:layout_alignBottom="@+id/visits1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="30dp"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:text=""
+        android:textColor="#ffffff" />
+
+    <EditText
+        android:id="@+id/trainingNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/searchButton"
+        android:layout_alignBottom="@+id/searchButton"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="5dp"
+        android:ems="10"
+        android:gravity="center"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/visitsTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/trainingNameEditText"
+        android:layout_below="@+id/topTextView"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="22dp"
+        android:gravity="center"
+        android:text="Visitas"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/trainingTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/visits1"
+        android:layout_alignLeft="@+id/training1"
+        android:layout_alignRight="@+id/training1"
+        android:gravity="center"
+        android:text="Entrenamiento"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/searchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@+id/trainingNameEditText"
+        android:background="#305C8C"
+        android:gravity="center"
+        android:text="@string/search"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:id="@+id/topTextView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/searchButton"
+        android:layout_marginTop="72dp"
+        android:gravity="center"
+        android:text="@string/top"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#ffffff"
+        android:textSize="20dp" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="#305C8C" >
+
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/ic_menu_white_48dp" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/menuButton"
+            android:gravity="center"
+            android:text="RUN &amp; SHARE"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#ffffff"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/run_logo" />
+    </RelativeLayout>
+
+</RelativeLayout>
